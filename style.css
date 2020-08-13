@@ -1,0 +1,69 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.main {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.display {
+	height: 30px;
+	width: 100%;
+	margin: 10px;
+	font-size: larger;
+}
+
+.inoputBtns {
+	display: flex;
+	flex-direction: column;
+}
+
+.smallBtns {
+	display: flex;
+	flex-direction: row;
+}
+
+.numbers0_9 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 10px;
+}
+
+.operations {
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
+
+.input {
+	height: 40px;
+	width: 40px;
+	border-radius: 5px;
+	margin: 2px;
+	font-size: larger;
+}
+
+.op {
+	background-color: lightpink;
+}
+
+.number {
+	background-color: lightyellow;
+}
+
+.clear {
+	width: 90px;
+}
+
+.selected {
+	background-color: lightgreen;
+}
+
+.equals {
+	width: 205px;
+	margin: 10px;
+}

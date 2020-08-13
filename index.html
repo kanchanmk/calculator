@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Simple calculator</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main class="main">
+			<h1>Calculator</h1>
+			<section>
+				<input
+					type="text"
+					name="display"
+					id="display"
+					class="display"
+					disabled
+				/>
+			</section>
+			<section class="inputBtns">
+				<section class="smallBtns">
+					<section class="numbers0_9">
+						<section>
+							<button class="input clear" data-input="C">Clear</button>
+							<button class="input number" data-input="0">0</button>
+						</section>
+						<section>
+							<button class="input number" data-input="1">1</button>
+							<button class="input number" data-input="2">2</button>
+							<button class="input number" data-input="3">3</button>
+						</section>
+						<section>
+							<button class="input number" data-input="4">4</button>
+							<button class="input number" data-input="5">5</button>
+							<button class="input number" data-input="6">6</button>
+						</section>
+						<section>
+							<button class="input number" data-input="7">7</button>
+							<button class="input number" data-input="8">8</button>
+							<button class="input number" data-input="9">9</button>
+						</section>
+					</section>
+					<section class="operations">
+						<button class="input op" data-input="+">+</button>
+						<button class="input op" data-input="-">-</button>
+						<button class="input op" data-input="*">X</button>
+						<button class="input op" data-input="/">/</button>
+					</section>
+				</section>
+				<section>
+					<button class="input op equals" data-input="=">=</button>
+				</section>
+			</section>
+		</main>
+		<script src="script.js"></script>
+	</body>
+</html>
